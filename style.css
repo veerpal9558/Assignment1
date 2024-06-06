@@ -1,0 +1,155 @@
+<style>
+    h1 {
+        font-size: xx-large;
+        justify-content: center;
+        text-align: center;
+        background-color: bisque;
+    }
+    /* Reset styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Global styles */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    /* Header styles */
+    header {
+        background-color: #f2f2f2;
+        padding: 1rem;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        margin: 0 1rem;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+    /* Hero section styles */
+    .hero {
+        background-image: url('hero-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 5rem 1rem;
+    }
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .btn {
+        display: inline-block;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+        background-color: #e6e6e6;
+    }
+    /* Featured collection styles */
+    .featured-collection {
+        padding: 4rem 1rem;
+    }
+    .featured-collection h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        width: 0.5%; /* Adjust the width percentage to change the image size */
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .dress-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+    .dress-card {
+        background-color: #f2f2f2;
+        padding: 1rem;
+        text-align: center;
+    }
+    .dress-card img {
+        width: 35ch;
+        height: 50ch;
+    }
+    .dress-card h3 {
+        margin-bottom: 0.5rem;
+    }
+    .add-to-cart {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        margin-top: 0.5rem;
+    }
+    .add-to-cart:hover {
+        background-color: #555;
+    }
+    /* Footer styles */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
+    /* Section styles */
+    .section {
+        padding: 4rem 1rem;
+        text-align: center;
+    }
+    .section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .section p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .section .btn {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    .section .btn:hover {
+        background-color: #555;
+    }
+    /* Contact section styles */
+    .contact {
+        padding: 4rem 1rem;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+    .contact h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .contact p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .contact .contact-details {
+        margin-bottom: 1rem;
+    }
+</style>
